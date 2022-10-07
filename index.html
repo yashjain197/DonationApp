@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://unpkg.com/@solana/web3.js@v1.33.0/lib/index.iife.js"></script>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation App</title>
+
+
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+
+    <div class="upText">
+        <h1 class="text">STEPS</h1>
+        <p class="text">1.First connect wallet</p>
+        <p  class="text">2.Now you can donate 0.02 SOL</p>   
+    </div>
+    <div class="btnBox">
+    <button onclick="connectWallet()" class="my-button">Connect Wallet</button>
+
+    <button onclick="signInTransactionAndSendMoney('var',10)" class="my-button">Donate</button>
+</div>
+<div class="textBox">
+    <p id="walletId" class="text"></p>
+    <p id="status" class="text"></p>
+    <p id="balance" class="text"></p>   
+</div>
+</body>
+</html>

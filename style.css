@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(124, 205, 223);
+    margin:0;
+  height:100%;
+  background-size:cover;
+}
+
+.my-button{
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    margin: 10px;
+    background: white;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.btnBox{
+height: 200px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.upText{
+    display:block;
+    align-items: center;
+    display: inline;
+}
+
+.text{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
+}
